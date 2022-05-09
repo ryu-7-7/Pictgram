@@ -8,8 +8,12 @@ import com.example.pictgram.validation.constraints.PasswordEquals;
 
 import lombok.Data;
 
+
+
 @Data
+
 @PasswordEquals
+
 public class UserForm {
 
     @NotEmpty
